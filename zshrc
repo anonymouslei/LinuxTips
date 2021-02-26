@@ -51,6 +51,8 @@ DIRSTACKSIZE=10
 setopt autopushd pushdminus pushdsilent pushdtohome pushdignoredups cdablevars
 alias d='dirs -v | head -10'
 
+alias lei='cd ~/lei/code/'
+
 # Disable correction
 unsetopt correct_all
 unsetopt correct
